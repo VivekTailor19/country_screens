@@ -94,6 +94,7 @@ class _InformationState extends State<Information> {
     return Column( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
             SizedBox(height: 20,),
+
         Container(
           height: 40,
           width: double.infinity,
