@@ -70,28 +70,30 @@ class _InformationState extends State<Information> {
           style: TextStyle(fontSize: 25, letterSpacing: 5),
         ),
       ),
-      body: Column(
-        children: flag.asMap().entries.map((e) =>
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Column(
+            children: flag.asMap().entries.map((e) =>
 
-            InkWell(
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => ui_Country(flag[e.key], country[e.key], president[e.key], info[e.key]),));
+                InkWell(
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => ui_Country(flag[e.key], country[e.key], president[e.key], info[e.key]),));
 
-              },
-              child: listWidget(flag[e.key], country[e.key],
-                  e.key % 2 == 0 ? Colors.pinkAccent : Colors.tealAccent ),
-            ))
-            .toList(),
+                  },
+                  child: listWidget(flag[e.key], country[e.key],
+                      e.key % 2 == 0 ? Colors.pinkAccent : Colors.tealAccent ),
+                ))
+                .toList(),
+          ),
+        ),
       ),
     );
   }
 
   Widget listWidget(String flag, String country, Color col) {
-    return Column(
+    return Column( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        SizedBox(
-          height: 15,
-        ),
+            SizedBox(height: 20,),
         Container(
           height: 40,
           width: double.infinity,

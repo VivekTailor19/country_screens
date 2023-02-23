@@ -20,9 +20,7 @@ class _ui_CountryState extends State<ui_Country> {
       backgroundColor: Colors.teal,
       appBar: AppBar(
         backgroundColor: Colors.brown,
-        leading: Icon(
-          Icons.featured_play_list_outlined,
-        ),
+
         title: Text(
           "${widget.flag} ${widget.country} ${widget.flag}",
           style: TextStyle(fontSize: 25, letterSpacing: 5),
