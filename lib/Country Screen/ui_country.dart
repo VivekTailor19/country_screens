@@ -35,7 +35,6 @@ class _ui_CountryState extends State<ui_Country> {
               style: TextStyle(
                   fontSize: 72,
                   fontWeight: FontWeight.bold,
-
                   letterSpacing: 15,
                   color: Colors.amber),
             ),
