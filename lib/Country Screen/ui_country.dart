@@ -1,86 +1,70 @@
 import 'package:flutter/material.dart';
 
-class UI_Country extends StatefulWidget {
-  const UI_Country({Key? key}) : super(key: key);
+class ui_Country extends StatefulWidget {
+
+  String? country;
+  String? flag ;
+  String? president ;
+  String? info ;
+  ui_Country(this.flag,this.country,this.president,this.info);
+
 
   @override
-  State<UI_Country> createState() => _UI_CountryState();
+  State<ui_Country> createState() => _ui_CountryState();
 }
 
-List country = [
-  "INDIA",
-  "RUSSIA",
-  "USA",
-  "JAPAN",
-  "CHINA",
-  "ENGLAND",
-  "IRELAND",
-  "CANADA",
-  "ISRAIL",
-  "NEPAL"
-];
-List flag = [
-  "🇮🇳 ",
-  "🇷🇺 ",
-  "🇺🇸 ",
-  "🇯🇵 ",
-  "🇨🇳",
-  "🇬🇧 ",
-  "🇮🇪 ",
-  "🇨🇦 ",
-  "🇮🇱 ",
-  "🇳🇵 ",
-];
-// List col = [
-//   [Colors.lightBlueAccent, Colors.pinkAccent],
-//   [Colors.black12, Colors.tealAccent],
-// ];
-
-class _UI_CountryState extends State<UI_Country> {
+class _ui_CountryState extends State<ui_Country> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red.shade50,
       appBar: AppBar(
+        backgroundColor: Colors.brown,
         leading: Icon(
           Icons.featured_play_list_outlined,
         ),
         title: Text(
-          "POWERFUL COUNTRIES",
+          "${widget.flag} ${widget.country} ${widget.flag}",
           style: TextStyle(fontSize: 25, letterSpacing: 5),
         ),
       ),
-      body: Column(
-        children: flag.asMap().entries.map((e) =>
-            listWidget(flag[e.key], country[e.key],
-            e.key %2 == 0 ? Colors.lightBlueAccent : Colors.pinkAccent ))
-            .toList(),
-        //flag.map((e) => listWidget(flag[e.key], country[e.key] )).toList(), // ++i   0    1
+      body: Center(
+        child: Column(
+          children: [
+            Text(
+              "${widget.country}",
+              style: TextStyle(
+                  fontSize: 72,
+                  fontWeight: FontWeight.bold,
+                  backgroundColor: Colors.pink.shade50,
+                  letterSpacing: 10,
+                  color: Colors.amber),
+            ),
+            Container(
+              height: 300,
+              width: 300,
+              alignment: Alignment.center,
+              child: Image.network("${widget.president}",height: 300,width: 300,),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: Text("${widget.info}"),
+            )
+
+          ],
+        ),
       ),
     );
   }
-
-  Widget listWidget(String flag, String country, Color col) {
-    return Column(
-      children: [
-        SizedBox(
-          height: 15,
-        ),
-        Container(
-          height: 40,
-          width: double.infinity,
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              color: col),
-          alignment: Alignment.center,
-          child: Text(
-            "$flag $country $flag",
-            style: TextStyle(
-              fontSize: 35,
-              color: Colors.brown,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
 }
+
+
+/*
+*
+  *
+* */
+// String country = "";
+// String flag = "";
+// String data = "";
+
+
