@@ -33,7 +33,7 @@ List flag = [
   "🇳🇵 ",
 ];
 List president = [
-  "https://media.cnn.com/api/v1/images/stellar/prod/220721165535-droupadi-murmu-0721.jpg?c=16x9&q=h_720,w_1280,c_fill",
+  "https://upload.wikimedia.org/wikipedia/commons/2/2e/Prime_Minister%2C_Shri_Narendra_Modi%2C_in_New_Delhi_on_August_08%2C_2019_%28cropped%29.jpg",
   "https://upload.wikimedia.org/wikipedia/commons/4/47/Vladimir_Putin_17-11-2021_%28cropped%29.jpg",
   "https://www.loc.gov/static/portals/free-to-use/public-domain/presidential-portraits/46-joe-biden.png",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJsy4MXkNylqHGaMiezgma7sodJ7oAfpU1g&usqp=CAU",
