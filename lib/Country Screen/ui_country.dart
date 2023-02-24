@@ -17,7 +17,7 @@ class _ui_CountryState extends State<ui_Country> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red.shade50,
+      backgroundColor: Colors.teal,
       appBar: AppBar(
         backgroundColor: Colors.brown,
         leading: Icon(
@@ -27,6 +27,7 @@ class _ui_CountryState extends State<ui_Country> {
           "${widget.flag} ${widget.country} ${widget.flag}",
           style: TextStyle(fontSize: 25, letterSpacing: 5),
         ),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
@@ -36,8 +37,8 @@ class _ui_CountryState extends State<ui_Country> {
               style: TextStyle(
                   fontSize: 72,
                   fontWeight: FontWeight.bold,
-                  backgroundColor: Colors.pink.shade50,
-                  letterSpacing: 10,
+
+                  letterSpacing: 15,
                   color: Colors.amber),
             ),
             Container(

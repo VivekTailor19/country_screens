@@ -33,16 +33,16 @@ List flag = [
   "🇳🇵 ",
 ];
 List president = [
-  "https://static.toiimg.com/imagenext/medley-topic/thumb/topics/image/show/83/president-of-india?imgsize=81366&width=360&resizemode=4",
+  "https://media.cnn.com/api/v1/images/stellar/prod/220721165535-droupadi-murmu-0721.jpg?c=16x9&q=h_720,w_1280,c_fill",
   "https://upload.wikimedia.org/wikipedia/commons/4/47/Vladimir_Putin_17-11-2021_%28cropped%29.jpg",
   "https://www.loc.gov/static/portals/free-to-use/public-domain/presidential-portraits/46-joe-biden.png",
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJsy4MXkNylqHGaMiezgma7sodJ7oAfpU1g&usqp=CAU",
   "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_08/2340871/xijinping.jpg",
-  "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/dd663815-f21d-46da-ab17-22b3112010a9.jpg",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStExUg3jqJ5ph-mqaRxyycTBKhWyLEL1LWQ0eU3XpuGhIswE4eF8tLGlKRvHfoohxsHEM&usqp=CAU",
   "https://i.guim.co.uk/img/media/3950e5c2682748b01948aa56147e712fd320a76d/0_90_2378_1427/master/2378.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=66fd4aa39ace24b07c159946a7e90b50",
-  "https://d3i6fh83elv35t.cloudfront.net/static/2019/06/2019-06-07T094731Z_1709609852_RC1412436BB0_RTRMADP_3_FRANCE-CANADA-MACRON-TRUDEAU-1024x683.jpg",
-  "https://bsmedia.business-standard.com/_media/bs/img/about-page/thumb/463_463/1624265818.jpg",
-  "https://pragativadi.com/wp-content/uploads/2022/09/nepal-prez.jpg",
+  "https://cdn.vox-cdn.com/thumbor/ev2FV8BS9CnkcKh7SSP0r8zE7y0=/0x102:2388x1445/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/49041353/GettyImages-499135456.0.jpg",
+  "https://i.guim.co.uk/img/media/05540dd0ecd6c6a53fa22f2bb192817bbb475aa2/0_0_4305_2582/master/4305.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=bea2cb28535dad12a6f6e0b846cacba8",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnhwA8eVAra9tbrgcchWIaAcqbNPHmj_DAqw&usqp=CAU",
 ];
 List info = [
   "India is a famous country for its great cultural and traditional values all across the world. It contains a mountain called Himalaya which is biggest in the world. It is surrounded by the three big oceans from three directions such as in south with Indian Ocean, in east with Bay of Bengal and in west with Arabic sea.",
