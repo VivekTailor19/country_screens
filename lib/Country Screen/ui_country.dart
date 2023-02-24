@@ -39,8 +39,8 @@ List flag = [
 class _UI_CountryState extends State<UI_Country> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+    return Scaffold(backgroundColor: Colors.red.shade50,
+      appBar: AppBar(backgroundColor: Colors.brown,
         leading: Icon(
           Icons.featured_play_list_outlined,
         ),
@@ -52,9 +52,8 @@ class _UI_CountryState extends State<UI_Country> {
       body: Column(
         children: flag.asMap().entries.map((e) =>
             listWidget(flag[e.key], country[e.key],
-            e.key %2 == 0 ? Colors.lightBlueAccent : Colors.pinkAccent ))
+            e.key % 2 == 0 ? Colors.pinkAccent : Colors.tealAccent ))
             .toList(),
-        //flag.map((e) => listWidget(flag[e.key], country[e.key] )).toList(), // ++i   0    1
       ),
     );
   }
